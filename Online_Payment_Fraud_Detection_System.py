@@ -288,7 +288,7 @@ if (result == 1):
 else:
     print("Transaction Status : Legitimate Transaction")
 
-# Predict another new data
+# Create another new data
 
 new_data1 = {
     'step': 250,
