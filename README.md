@@ -171,13 +171,13 @@ Online_Payment_Fraud_Detection_System/
 Clone the repository
 
 ```bash
-git clone https://github.com/Tuhin092005/Online_Payment_Fraud_Detection_System.git
+git clone https://github.com/Tuhin092005/Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning.git
 ```
 
 Move into the project folder
 
 ```bash
-cd Online_Payment_Fraud_Detection_System
+cd Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning
 ```
 
 Install the required libraries
@@ -186,11 +186,20 @@ Install the required libraries
 pip install -r requirements.txt
 ```
 
-Run the project
+## ▶️ Run the Project
 
-```bash
-python Online_Payment_Fraud_Detection_System.py
-```
+### Using Google Colab
+
+Open
+
+```text
+Online_Payment_Fraud_Detection_System.ipynb```
+
+Upload:
+
+- Online_Payment_Fraud_Dataset.csv
+
+Run all cells.
 
 ---
 
