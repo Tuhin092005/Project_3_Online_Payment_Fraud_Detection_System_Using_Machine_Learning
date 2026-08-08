@@ -188,6 +188,12 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
+### Using Python
+
+```bash
+python Online_Payment_Fraud_Detection_System.py
+```
+
 ### Using Google Colab
 
 Open
