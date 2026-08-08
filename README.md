@@ -171,7 +171,7 @@ Online_Payment_Fraud_Detection_System/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Online_Payment_Fraud_Detection_System.git
+git clone https://github.com/Tuhin092005/Online_Payment_Fraud_Detection_System.git
 ```
 
 Move into the project folder
