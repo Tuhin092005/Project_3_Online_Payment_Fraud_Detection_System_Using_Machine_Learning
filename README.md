@@ -172,19 +172,19 @@ Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning/
 
 # 🚀 Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Tuhin092005/Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning.git
 ```
 
-Move into the project folder
+### Navigate to the project
 
 ```bash
 cd Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning
 ```
 
-Install the required libraries
+### Install the required libraries
 
 ```bash
 pip install -r requirements.txt
