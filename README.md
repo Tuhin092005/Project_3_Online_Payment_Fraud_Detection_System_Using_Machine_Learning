@@ -153,7 +153,7 @@ Transaction Status : Fraudulent Transaction
 # 📁 Project Structure
 
 ```
-Online_Payment_Fraud_Detection_System/
+Project_3_Online_Payment_Fraud_Detection_System_Using_Machine_Learning/
 │
 ├── Online_Payment_Fraud_Detection_System.ipynb
 ├── Online_Payment_Fraud_Detection_System.py
