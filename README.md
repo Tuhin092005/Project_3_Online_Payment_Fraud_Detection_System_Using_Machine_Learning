@@ -157,11 +157,15 @@ Online_Payment_Fraud_Detection_System/
 │
 ├── Online_Payment_Fraud_Detection_System.ipynb
 ├── Online_Payment_Fraud_Detection_System.py
-├── Online_Payment_Fraud_Dataset.csv
+├── Dataset/
+│   ├── Online_Payment_Fraud_Dataset.csv
+├── images/
+│   ├── Confusion_Matrix.png
+│   ├── Feature_Importance.png
+│   └── Model_Accuracy_Comparison.png
 ├── requirements.txt
 ├── README.md
-├── LICENSE
-└── images/
+└── LICENSE
 ```
 
 ---
