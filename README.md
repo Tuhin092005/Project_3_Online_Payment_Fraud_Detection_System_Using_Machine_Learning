@@ -76,15 +76,15 @@ The dataset contains important transaction details such as:
 
 | Machine Learning Model | Accuracy |
 |------------------------|---------:|
-| Logistic Regression | **80.83%** |
-| Decision Tree | **91.00%** |
-| Random Forest | **96.67%** ✅ |
+| Logistic Regression | **78.33%** |
+| Decision Tree | **93.67%** |
+| Random Forest | **96.50%** ✅ |
 
 ### 🏆 Best Performing Model
 
 **Random Forest Classifier**
 
-Accuracy: **96.67%**
+Accuracy: **96.50%**
 
 ---
 
@@ -130,23 +130,61 @@ The models are evaluated using:
 
 ---
 
-# 📷 Output
+## 💳 Sample Predictions
 
-### Prediction Example
+The model predicts whether an online payment transaction is **Fraudulent** or **Legitimate** using two different transaction examples.
 
+### 🧪 Example Prediction 1 (Fraudulent Transaction)
+
+**Input**
+
+```text
+Step               : 600
+Transaction Type   : TRANSFER
+Amount             : 950000
+Old Balance Origin : 950000
+New Balance Origin : 0
+Old Balance Dest   : 0
+New Balance Dest   : 950000
+Flagged Fraud      : 0
 ```
-Prediction: 0
+
+**Expected Output**
+
+```text
+Prediction : 1
+
+Transaction Status : Fraudulent Transaction
+```
+
+> A high-value transfer that empties the sender's account is predicted as a **Fraudulent Transaction**.
+
+---
+
+### 🧪 Example Prediction 2 (Legitimate Transaction)
+
+**Input**
+
+```text
+Step               : 250
+Transaction Type   : PAYMENT
+Amount             : 4500.75
+Old Balance Origin : 15000.00
+New Balance Origin : 10500.25
+Old Balance Dest   : 5000.00
+New Balance Dest   : 9500.75
+Flagged Fraud      : 0
+```
+
+**Expected Output**
+
+```text
+Prediction : 0
 
 Transaction Status : Legitimate Transaction
 ```
 
-or
-
-```
-Prediction: 1
-
-Transaction Status : Fraudulent Transaction
-```
+> A normal payment transaction with a reasonable amount and valid balance update is predicted as a **Legitimate Transaction**.
 
 ---
 
