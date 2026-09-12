@@ -77,8 +77,8 @@ The dataset contains important transaction details such as:
 | Machine Learning Model | Accuracy |
 |------------------------|---------:|
 | Logistic Regression | **78.33%** |
-| Decision Tree | **93.67%** |
-| Random Forest | **96.50%** ✅ |
+| Decision Tree Classifier | **93.67%** |
+| Random Forest Classifier | **96.50%** ✅ |
 
 ### 🏆 Best Performing Model
 
